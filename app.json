@@ -1,0 +1,56 @@
+{
+  "name": "String Session Generator",
+  "description": "Telegram bot to generate pyrogram string session",
+  "logo": "https://telegra.ph/file/c91c09fb188f0f281e628.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/Zed-Thon/qbstring",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "لا تغيرها",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "لا تغيرها",
+      "required": true,
+      "value": "5850344"
+    },
+    "API_HASH": {
+      "description": "لا تغيرها",
+      "required": true,
+      "value": "4a4e3a26bdc53661b5eab07db0b159f7"
+    },
+    "BOT_TOKEN": {
+      "description": "توكن البوت",
+      "required": true,
+      "value": "1778044143:AAHar_IVptOHnOe58DWGO6OTZTu9gU4b9OQ"
+    },
+    "MUST_JOIN": {
+      "description": "لا تغيرها",
+      "required": false,
+      "value": "ZedThon"
+    }
+  }
+}
