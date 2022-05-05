@@ -45,7 +45,7 @@
     "BOT_TOKEN": {
       "description": "توكن البوت",
       "required": true,
-      "value": "1778044143:AAHar_IVptOHnOe58DWGO6OTZTu9gU4b9OQ"
+      "value": "1778044143:AAHar_IVptOHn58DWGO6OTZT9gU4b9OQ"
     },
     "MUST_JOIN": {
       "description": "لا تغيرها",
